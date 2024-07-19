@@ -1,0 +1,94 @@
+.wrapper {
+  background-color: rgb(228, 234, 171);
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: rgb(221, 244, 182);
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.photo {
+  background-color: rgb(161, 228, 242);
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+  text-align: right;
+  position: relative;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.box {
+  background-color: rgba(192, 239, 227, 0.693);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  transition: all 3s ease;
+}
+
+.memory-photo {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.memory-photo1 {
+  width: 50%;
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadein 1s  ease-in forwards;
+}
+@keyframes fadein{ 
+  to{
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+}
+
+.memory-photo2 {
+  width: 50%;
+}
+
+.profile-box {
+  width: 300px;
+}
+
+.personal-info {
+  
+}
+
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-info {
+  text-decoration: underline dotted blue;
+  border-bottom: 1px dotted blue;
+  padding-bottom: 8px;
+}
+
+.profile-text {
+  text-align: left;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
