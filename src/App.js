@@ -28,6 +28,7 @@ const App = () =>  {
           <p className="personal-info">宮崎県出身</p>
           </div>
         </div>
+        
         <div className="contact">
           <div>
           <p>contact</p>
