@@ -4,25 +4,44 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-import Root from './Root'
+import Profile from './Profile';
+import Contact from './Contact';
+import Other from './Other';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    children: [
-      
-      {
-        path: 'about',
-        element: <App />,
-      }
-      
-    ],
+    element: <App/>,
+    // // children: [  
+    //   {
+    //     path: 'profile',
+    //     element:<Profile/>
+    //   },
+    //   {
+    //     path: 'contact',
+    //     element: <Contact/>
+    //   },
+    //   {
+    //     path: 'other',
+    //     element: <Other/>
+    //   }
+    // ]
   },
   {
     path: 'profile',
-    element: <App/> 
+    element: <Profile/>,
+  },
+  {
+    path: 'contact',
+    element: <Contact/>,
+  },
+  {
+    path: 'other',
+    element: <Other/>,
   }
 ]);
+  
+  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
