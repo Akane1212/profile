@@ -66,7 +66,7 @@ const App = () =>  {
         </div>
         <div className="photo">
           <div className="image-photo">
-              <img className="memory-photo" src={anothersky} alt='discription of image'/>
+              <img className="memory-photo4" src={anothersky} alt='discription of image'/>
           </div>
         </div>
         <div className="photo">
