@@ -1,0 +1,42 @@
+# サイトの基本情報
+title: My Awesome Site  # サイトのタイトル
+description: >-        # サイトの説明（複数行の説明に対応）
+  Welcome to my awesome site.
+  This is a description that appears in the meta tags.
+baseurl: ""            # サイトのベースURL（サブディレクトリにデプロイする場合に使用）
+url: "https://example.com"  # サイトのURL
+
+# ビルド設定
+markdown: kramdown     # 使用するMarkdownエンジン
+theme: jekyll-theme-minimal  # 使用するテーマ
+plugins:               # 使用するプラグイン
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Sass/SCSS設定
+sass:
+  sass_dir: assets/css    # SCSSファイルのディレクトリ
+  style: compressed       # 出力するCSSのスタイル（nested, expanded, compact, compressed）
+
+# デフォルトのレイアウト
+defaults:
+  - scope:
+      path: ""            # 全てのページに適用
+    values:
+      layout: "default"   # デフォルトのレイアウト
+
+# ページネーション設定
+paginate: 5               # 1ページに表示する投稿数
+paginate_path: "/page:num/" # ページネーションのURL
+
+# エクスクルード設定
+exclude:                  # ビルド時に除外するファイルやディレクトリ
+  - README.md
+  - node_modules
+
+# インクルード設定
+include:                  # ビルド時に強制的に含めるファイルやディレクトリ
+  - _pages
+
+# SEOとメタデータ設定
+permalink: /:categories/:title/  # 投稿のパーマリンクスタイル
