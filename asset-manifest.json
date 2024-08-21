@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.d8f73208.css",
-    "main.js": "/profile/static/js/main.6baf6e93.js",
+    "main.css": "/profile/static/css/main.896a8d8e.css",
+    "main.js": "/profile/static/js/main.1a5bf49c.js",
     "static/js/453.d73b0aaa.chunk.js": "/profile/static/js/453.d73b0aaa.chunk.js",
     "static/media/IMG_3284.JPG": "/profile/static/media/IMG_3284.a62b58f74ee8991732d9.JPG",
     "static/media/IMG_0233.jpeg": "/profile/static/media/IMG_0233.926b205a84fa831e2935.jpeg",
@@ -18,18 +18,19 @@
     "static/media/IMG_1157.JPG": "/profile/static/media/IMG_1157.7a0c4af080e0bf6483c7.JPG",
     "static/media/IMG_9545.JPG": "/profile/static/media/IMG_9545.cf214988d24c833b690a.JPG",
     "static/media/E19D892F-E431-42F6-B930-F9E14BE51036.JPG": "/profile/static/media/E19D892F-E431-42F6-B930-F9E14BE51036.1442f4df5cbab699b24b.JPG",
+    "static/media/5403C060-3FE6-4654-8E60-991C6B4B6F56.jpg": "/profile/static/media/5403C060-3FE6-4654-8E60-991C6B4B6F56.94d62d1b2ffb411da8e6.jpg",
     "static/media/IMG_8017.JPG": "/profile/static/media/IMG_8017.6a98ca5a615aa442e461.JPG",
     "static/media/IMG_9212.JPG": "/profile/static/media/IMG_9212.c312ea58f2e2172012e6.JPG",
     "static/media/IMG_4785.JPG": "/profile/static/media/IMG_4785.1dea18053148d9a29db7.JPG",
     "static/media/IMG_7245.JPG": "/profile/static/media/IMG_7245.ba5f959874cc2920db9f.JPG",
     "static/media/IMG_8712.JPG": "/profile/static/media/IMG_8712.9199c027519a0332cd2c.JPG",
     "index.html": "/profile/index.html",
-    "main.d8f73208.css.map": "/profile/static/css/main.d8f73208.css.map",
-    "main.6baf6e93.js.map": "/profile/static/js/main.6baf6e93.js.map",
+    "main.896a8d8e.css.map": "/profile/static/css/main.896a8d8e.css.map",
+    "main.1a5bf49c.js.map": "/profile/static/js/main.1a5bf49c.js.map",
     "453.d73b0aaa.chunk.js.map": "/profile/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8f73208.css",
-    "static/js/main.6baf6e93.js"
+    "static/css/main.896a8d8e.css",
+    "static/js/main.1a5bf49c.js"
   ]
 }
