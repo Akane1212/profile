@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: rgb(197, 235, 241);
+  background-color: rgba(193, 248, 248, 0.693);
   height: 100%;
   width: 100%;
 }
@@ -13,7 +13,7 @@
 }
 
 .photo {
-  background-color: rgba(231, 251, 251, 0.693);
+  background-color: rgba(193, 232, 240, 0.693);
   width: 55%;
   height: 500px;
   margin: 10px;
@@ -24,7 +24,7 @@
 
 
 .box {
-  background-color: rgba(231, 251, 251, 0.693);
+  background-color: rgba(242, 248, 248, 0.693);
   display: flex;
   flex-direction: column;
   height: 250px;
@@ -70,8 +70,7 @@
 }
 
 .memory-photo4{
-  width: 60%;
-  height: 500px;
+ height: 500px;
 }
 
 .profile-box {
