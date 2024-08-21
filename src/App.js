@@ -65,12 +65,12 @@ const App = () =>  {
         }
         </button>
         </div>
-        <div className="photo">
+        <div>
           <div className="image-photo">
               <img className="memory-photo4" src={anothersky} alt='discription of image'/>
           </div>
         </div>
-        <div className="photo">
+        <div>
             <div className="image-photo">
               <img className="memory-photo4" src={anothersky2} alt='discription of image'/>
             </div>
