@@ -69,7 +69,10 @@
   left: 50px;
 }
 
-
+.memory-photo4{
+  width: 60%;
+  height: 500px;
+}
 
 .profile-box {
   width: 300px;
@@ -86,15 +89,15 @@
   justify-content: space-evenly;
 }
 
-.profile-info {
+/* .profile-info {
   /* text-decoration: underline dotted blue;
   border-bottom: 1px dotted blue; */
   /* padding-bottom: 8px; */
-}
+/* }
 
 .profile-text {
   /* text-align: left; */
-}
+/* } */ 
 
 .contact {
   display: flex;
@@ -108,9 +111,6 @@
   margin-left: 35px;
 }
 
-.address-info {
-  
-}
 
 
 button {

@@ -5,6 +5,7 @@ import Root from './Root'
 import { SlArrowDown } from "react-icons/sl";
 import { IoCloseOutline } from "react-icons/io5";
 import anothersky from './images/IMG_4029.jpeg';
+import anothersky2 from './images/5403C060-3FE6-4654-8E60-991C6B4B6F56.jpg';
 
 const App = () =>  {
   const [isShow, setIsShow] = useState(true)
@@ -71,7 +72,7 @@ const App = () =>  {
         </div>
         <div className="photo">
             <div className="image-photo">
-              <img className="memory-photo" src='' alt='discription of image'/>
+              <img className="memory-photo4" src={anothersky2} alt='discription of image'/>
             </div>
         </div>
         </div>
