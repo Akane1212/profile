@@ -8,11 +8,13 @@ import anothersky from './images/IMG_4029.jpeg';
 import anothersky2 from './images/5403C060-3FE6-4654-8E60-991C6B4B6F56.jpg';
 
 const App = () =>  {
+
   const [isShow, setIsShow] = useState(true)
   
   const handleClick = () => {
     setIsShow(!isShow)
   }
+
 
   return (
     <div className="wrapper">
@@ -75,12 +77,14 @@ const App = () =>  {
               <img className="memory-photo4" src={anothersky2} alt='discription of image'/>
             </div>
         </div>
+        
         </div>
       <div className="link">
         <Root/>
       </div>
     </div>
   );
+  
 }
 
 export default App;

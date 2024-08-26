@@ -18,7 +18,7 @@ return(
     <button onClick={()=>navigate(-1)}>back</button>
             <Link to="/">Home</Link>
     <div className="container">
-        <h1>Profile</h1>
+        <h1 className="category">Profile</h1>
        <div className="photo">
           <p className="title">childhood</p>
           <p className="year">1996.01</p>
