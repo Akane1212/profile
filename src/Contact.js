@@ -49,7 +49,7 @@ export default function Contact() {
         </animated.svg>
       </div>
       <div className="container">
-      <h1>Contact</h1>
+      <h1 className="category">Contact</h1>
       <p>宮崎県日向市</p>
       <p>astkcy12@gmail.com</p>
       <img className="hyuga" src='https://hyugasurf.camp/wp-content/uploads/2020/07/20200720_223225-1024x768.jpg' alt='ロゴ'/>

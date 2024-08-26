@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import marine from './images/IMG_1776.jpeg';
+import marine from './images/IMG_1776.jpg';
 import sports from './images/IMG_4785.JPG';
 import marathon from './images/IMG_3144.JPG';
 import running from './images/IMG_9212.JPG';
@@ -24,7 +24,7 @@ const Other = () => {
         <div>
             <button onClick={()=>navigate(-1)}>back</button>
             <Link to="/">Home</Link>
-          <h1 className="hobbies">My hobbies</h1>
+          <h1 className="category">My hobbies</h1>
             <div className="container">
               <div className="photo">
                 <p className="hobby-title">marine sports</p>
@@ -55,21 +55,21 @@ const Other = () => {
                   </div>
               </div>
               <div className="photo">
-                <p className="title">travel~Australia</p>
+                <p className="hobby-title">travel to Australia</p>
                   <div className="image-photo">
                     <img className="memory-photo1" src={travel} alt='discription of image'/>
                     <img className="memory-photo2" src={australia} alt='discription of image'/>
                   </div>
               </div>
               <div className="photo">
-                <p className="title">travel~Asia</p>
+                <p className="hobby-title">travel to Asia</p>
                   <div className="image-photo">
                     <img className="memory-photo1" src={singapore} alt='discription of image'/>
                     <img className="memory-photo2" src={thai} alt='discription of image'/>
                   </div>
               </div>
               <div className="photo">
-                <p className="title">travel~Japan</p>
+                <p className="hobby-title">travel to Japan</p>
                   <div className="image-photo">
                     <img className="memory-photo1" src={hokkaido} alt='discription of image'/>
                     <img className="memory-photo2" src={tokyo} alt='discription of image'/>
